@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600;700&display=swap');
+
+body
+{
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', serif;
+    cursor: grab;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+#card
+{
+    background-color: white;
+    width: 280px;
+    height: 410px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 7px 7px;
+  
+}
+
+svg
+{
+    border-radius: 10px;
+}
+
+/* blog-post-meta */
+
+#blog-post-meta
+{
+    margin-top: 15px;
+}
+
+#blog-post-meta > h5
+{
+  display: inline;
+  background-color: hsl(47, 88%, 63%);
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: 700;
+ 
+}
+
+p
+{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* blog-post-content*/
+
+h3
+{
+    font-family: 'Figtree',sans-serif; 
+}
+
+h3:hover
+{
+    color: hsl(47, 88%, 63%);
+    
+}
+
+#blog-post-content > p
+{
+    color: hsl(0, 0%, 50%);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/*author-profile*/
+#author-profile
+{
+    height: 40px;
+    display: flex;
+}
+
+#author-profile>h5
+{
+   align-self: center;
+   margin-left: 15px;
+   font-weight: bolder;
+}
+
+[alt=" Greg Hooper-profile-picture"]
+{
+  width: 40px;
+  height: 40px;
+}
